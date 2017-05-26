@@ -1,0 +1,12 @@
+{
+  "require": {
+    "jesusslim/gwyn" : "dev-master"
+  },
+  "minimum-stability": "dev",
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
