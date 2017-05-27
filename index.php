@@ -9,10 +9,9 @@
 require "Lib/vendor/autoload.php";
 require "Src/MobileLocation.php";
 
-$inj = new \Inject\Injector();
 $map = [
     'mobile' => \MobileLocation\Src\MobileLocation::class,
     'hello' => function(){return 'world';}
 ];
-$server = new \gwyn\src\Server($inj,$map);
+$server = new \gwyn\Src\Server($map);
 $server->run();
